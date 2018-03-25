@@ -31,7 +31,7 @@ This must all be done before your page can be considered complete! Check with th
   <meta name="twitter:image" content="[this should generally be a link from our CMS]">
   <meta name="twitter:description" content="[description, less than 200 characters]">
   <meta name="twitter:url" content="http://projects.underthebutton.com/[year]/[month]/[project-name]">
-  <meta name="twitter:site" content="@dailypenn">
+  <meta name="twitter:site" content="@underthebutton">
   ```
 
 ### HTML
