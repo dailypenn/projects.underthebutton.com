@@ -52,27 +52,23 @@ body {
   margin: 0;
 }
 
-nav {
-  height: 40px;
-  padding-top: 10px;
-  background-color: #222;
-  font-size: 28px;
-  text-align: center;
-  color: #FFF;
+h1 {
+  margin: 0 0 5px 0;
+  color: #446CB3;
 }
 
 a {
   text-decoration: none;
 }
 
-span.button {
-  font-weight: 700;
-  color: #446CB3;
+p.byline {
+  margin: 0;
+  color: #222;
 }
 
 .flag {
   max-width: 1000px;
-  margin: 80px auto;
+  margin: 80px auto 40px;
   border-bottom: 3px solid #222;
 }
 
@@ -81,20 +77,64 @@ span.button {
   margin: auto;
 }
 
+.row {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.two {
+  width: 50%;
+}
+
+.three {
+  width: 33%;
+}
+
+.article:not(:last-of-type) {
+  margin-right: 15px;
+}
+
+.article img {
+  width: 100%;
+  height: auto;
+}
+
 .center {
   text-align: center;
   margin-top: 100px;
 }
 
 @media screen and (max-width: 1050px) {
+  h1 {
+    font-size: 24px;
+  }
+
   .flag {
     margin: 40px 15px;
+  }
+
+  .container {
+    margin: 0 15px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .row {
+    flex-wrap: wrap;
+  }
+
+  .article {
+    width: 100%;
+  }
+
+  .article:not(:last-of-type) {
+    margin: 0 0 20px 0;
   }
 }
 
 @media screen and (max-width: 480px) {
   .flag {
-    margin: 0;
+    margin: 0 0 15px 0;
     padding: 5px 15px;
     background-color: #222;
     border-bottom: none;
