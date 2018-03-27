@@ -118,6 +118,10 @@ span.dot {
   width: 33%;
 }
 
+.four {
+  width: 25%;
+}
+
 .article:not(:last-of-type) {
   margin-right: 15px;
 }
@@ -147,10 +151,6 @@ span.dot {
 }
 
 @media screen and (max-width: 768px) {
-  .row {
-    flex-wrap: wrap;
-  }
-
   .article {
     width: 100%;
   }
