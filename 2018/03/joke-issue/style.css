@@ -167,4 +167,8 @@ span.dot {
     background-color: #222;
     border-bottom: none;
   }
+
+  marquee {
+    margin-bottom: 10px;
+  }
 }
