@@ -1,0 +1,49 @@
+.rectangle {
+  width: 100%;
+  background-color: white;
+}
+
+.content {
+  height: 100%;
+  width: 100%;
+  padding:2.5%;
+}
+
+body {
+  background: #002037;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 145%;
+}
+
+h1 {
+  color: #0078c1;
+  font-family: 'Lora', serif;
+  font-weight: 900;
+}
+
+#image {
+  padding-top:100px;
+}
+
+#entries {
+  padding-top:30px;
+}
+
+.sticky {
+  position: fixed;
+  width: 100%;
+  z-index: 10000;
+}
+
+.content-container {
+  padding-top: 70px;
+}
+
+@media screen and (max-width: 720px){
+  .container {
+    width: 80%;
+  }
+  .content-container {
+    padding-top: 25px;
+  }
+}
