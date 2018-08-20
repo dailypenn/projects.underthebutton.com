@@ -1,0 +1,28 @@
+{
+  "featured": [
+    {
+      "title": "Joke Issue 2018",
+      "author": "Web Dev: Alex Graves",
+      "section": "Joke Issue",
+      "date": "March 2018",
+      "description": "Under the Button dot com took over The DP to bring you the real stories of today.",
+      "sponsored": false,
+      "link": "https://projects.underthebutton.com/2018/03/joke-issue/",
+      "image": "https://snworksceo.imgix.net/dpn/da73e9e3-1eff-482d-bbd6-1de920383ea1.sized-1000x1000.png",
+      "alt": "joke issue 2018"
+    }
+  ],
+  "articles": [
+    {
+      "title": "Penn Dictionary",
+      "author": "Design: Camille Rapay; Web Dev: Maki Chung, Andrew Fischer",
+      "section": "Under The Button",
+      "date": "August 2018",
+      "description": "Penn Dictionary is your guide to Penn slang. Feel free to vote on the definitions and submit your own!",
+      "sponsored": false,
+      "link": "https://projects.underthebutton.com/2018/08/penn-dictionary/",
+      "image": "https://s3.amazonaws.com/media.dpn/58550_pdf.png",
+      "alt": "penn dictionary"
+    }
+  ]
+}
