@@ -23,11 +23,29 @@ const renderEntries = () => {
           '<h1>' + entry[0] + '</h1>' +
           entry[1] +
         '</div>' +
+        '<div class = "vote">' +
+          '<div class = "counter">0</div>' +
+        '</div>' +
       '</div>'+
       '<br>'
       );
     }
   }
+
+    var up = $('<button>').addClass('btn btn-primary up').text('Up');
+    var down = $('<button>').addClass('btn btn-danger down').text('Down');
+    $('.vote').append(up);
+    $('.vote').append(down);
+
+    $('.up').click(() => {
+      console.log(this);
+    })
+}
+
+
+
+function count() {
+  console.log('up');
 }
 
 $(document).ready(() => {
@@ -35,4 +53,6 @@ $(document).ready(() => {
     CSV_ENTRIES = $.csv.toArrays(data);
     renderEntries();
   });
+
+
 });
