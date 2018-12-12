@@ -6,8 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Projects | Under the Button</title>
 
-    <link rel="stylesheet" href="style.css">
-
     <meta property="og:title" content="Projects | Under the Button">
     <meta property="og:image" content="https://d1udg35vyt7lx2.cloudfront.net/35001caba76cf4e46d5b891d9e302250/dist/img/social-default.png">
     <meta property="og:description" content="Projects and interactives from Under the Button dot com.">
@@ -20,6 +18,9 @@
     <meta name="twitter:description" content="Projects and interactives from Under the Button dot com.">
     <meta name="twitter:url" content="https://projects.underthebutton.com/">
     <meta name="twitter:site" content="@underthebutton">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
     <!-- Google Analytics -->
@@ -31,12 +32,29 @@
       gtag('config', 'UA-631054-4');
     </script>
 
-    <nav class="navbar">
-      <a href="http://underthebutton.com" class="home-link">under the <span class="button">button</span></a>
-    </nav>
+    <nav><a href="http://underthebutton.com" class="home-link">under the <span class="button">button</span></a></nav>
 
     <div class="container">
-      <h1 class="center">Projects coming soon!</h1>
+      <h1>Under the Button Projects</h1>
+      <div class="row centerpiece">
+        <div class="col-md-7" id="centerpiece-image"></div>
+        <div class="col-md-5 article-text" id="centerpiece-text"></div>
+      </div>
+      <hr>
+      <div class="row">
+        <div class="col-md-6 featured" id="featured-1"></div>
+        <div class="col-md-6 featured" id="featured-2"></div>
+      </div>
+      <hr>
+      <div class="all-projects" id="all-projects">
+        <h2 class="text-center">All Projects</h2>
+      </div>
+
+      <footer>
+        <p>Copyright © 2018, The Daily Pennsylvanian. All Rights Reserved.</p>
+      </footer>
     </div>
+
+    <script src="index.js" charset="utf-8"></script>
   </body>
 </html>

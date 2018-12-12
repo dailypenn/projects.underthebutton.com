@@ -1,6 +1,17 @@
 {
   "featured": [
     {
+      "title": "UTBiden: The Video Game",
+      "author": "Web Dev: Jess Peng",
+      "section": "Games",
+      "date": "December 2018",
+      "description": "Have you ever wondered what it's like to be the 47th Vice President of the United States and Presidential Professor of Practice, Joseph Robinette Biden Jr? Now's your chance! Hop on your scooter and navigate Locust as you travel from Perry World House to your meeting with Amy Gutmann.",
+      "sponsored": false,
+      "link": "https://projects.underthebutton.com/utbiden/",
+      "image": "https://snworksceo.imgix.net/dpn-utb/d291c5ca-bc39-47c5-9b44-30b305079dff.sized-1000x1000.png",
+      "alt": "joe biden video game"
+    },
+    {
       "title": "Joke Issue 2018",
       "author": "Web Dev: Alex Graves",
       "section": "Joke Issue",
@@ -10,13 +21,11 @@
       "link": "https://projects.underthebutton.com/2018/03/joke-issue/",
       "image": "https://snworksceo.imgix.net/dpn/da73e9e3-1eff-482d-bbd6-1de920383ea1.sized-1000x1000.png",
       "alt": "joke issue 2018"
-    }
-  ],
-  "articles": [
+    },
     {
       "title": "Penn Dictionary",
       "author": "Design: Camille Rapay; Web Dev: Maki Chung, Andrew Fischer",
-      "section": "Under The Button",
+      "section": "Special Pages",
       "date": "August 2018",
       "description": "Penn Dictionary is your guide to Penn slang. Feel free to vote on the definitions and submit your own!",
       "sponsored": false,
@@ -24,5 +33,6 @@
       "image": "https://s3.amazonaws.com/media.dpn/58550_pdf.png",
       "alt": "penn dictionary"
     }
-  ]
+  ],
+  "articles": []
 }
