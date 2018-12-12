@@ -67,3 +67,13 @@ This must all be done before your page can be considered complete! Check with th
   1. All project pages should be linked on our [main projects page](http://projects.underthebutton.com). To do this, edit the `projects.json` file at the root of this repo.
   2. Projects are organized in reverse chronological order, so add the new page to the top of the `"featured"` section. Make sure to fill out every section properly, and to credit all the developers and designers involved.
   3. If you're at all confused or unsure of how this works or should be done, let the Director of Web Development know, and they will be happy to help out!
+
+## Submodules
+
+You might notice that the `utbiden` folder in this repo looks different than all of the other folders. That's because it actually lives in a [separate repo](https://github.com/dailypenn/utbiden), and it is a submodule of this repo.
+
+### Updating UTBiden
+
+If any updates are pushed to the `utbiden` repo, you'll notice that the [page](https://projects.underthebutton.com/utbiden/) where it's hosted does not update automatically. This is a feature of submodules, and makes them a lot more secure. Thankfully, it's super easy to update a submodule.
+
+To do so, `cd` into the `utbiden` folder in this repo. Run `git pull` to get all of the latest changes from the `utbiden` repo. Then run `cd ../` (which will take you back to the root of this repo), and run `git status`. You'll notice that it will indicate that there are new changes to `utbiden`. Just add, commit, and push as usual, and the page will be updated!
