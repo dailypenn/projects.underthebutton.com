@@ -1,6 +1,17 @@
 {
   "featured": [
     {
+      "title": "Joke Issue 2021",
+      "author": "Web Dev: Raunaq Singh",
+      "section": "Joke Issue",
+      "date": "April 2021",
+      "description": "UnderTheButton.com took over The DP to bring you the real stories of today.",
+      "sponsored": false,
+      "link": "https://projects.underthebutton.com/2021/joke-issue/",
+      "image": "https://snworksceo.imgix.net/dpn/da73e9e3-1eff-482d-bbd6-1de920383ea1.sized-1000x1000.png",
+      "alt": "joke issue 2021"
+    },
+    {
       "title": "UTBiden: The Video Game",
       "author": "Web Dev: Jess Peng",
       "section": "Games",
