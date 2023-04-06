@@ -1,6 +1,17 @@
 {
   "featured": [
     {
+      "title": "Joke Issue 2023",
+      "author": "Web Dev: Bach Tran",
+      "section": "Joke Issue",
+      "date": "April 2023",
+      "description": "Under the Button took over The DP to bring you the real stories of today.",
+      "sponsored": false,
+      "link": "https://projects.underthebutton.com/2023/04/joke-issue/",
+      "image": "https://snworksceo.imgix.net/dpn-utb/0e32523a-61dd-4ed8-837b-abadc4c8ebc0.sized-1000x1000.png?",
+      "alt": "joke issue 2023"
+    },
+    {
       "title": "Joke Issue 2021",
       "author": "Web Dev: Raunaq Singh",
       "section": "Joke Issue",
